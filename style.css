@@ -1,0 +1,37 @@
+body {
+  margin: 0;
+  padding: 0;
+  height: 100%;
+  display: flex;
+  justify-content: center;
+  align-items: center;
+
+  font-family: Arial, Helvetica, sans-serif;
+}
+
+.janela {
+  top: 50%;
+  left: 50%;
+  border: 1px solid #000000;
+  padding: 20px;
+  box-shadow: 0 0 20px rgb(0, 0, 0, 0.1), 0 0 35px rgb(0, 0, 0, 0.1), 0 0 30px rgb(0, 0, 0, 0.1);
+  width: 200px;
+  height: 250px;
+  background: linear-gradient(15deg, #ffffff, #adadad);
+}
+
+.botao {
+  margin-top: 35px;
+  width: 100%;
+}
+
+.container {
+  display: flex;
+  justify-content: center;
+  width: 100%;
+  flex-direction: column;
+}
+
+pular {
+  margin-top: 20px;
+}
